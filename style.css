@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.html,
+.preview {
+    text-align: center;
+}
+
+.html {
+    color: rgb(99, 12, 12)
+}
+
+.preview {
+    color: rgb(4, 79, 5)
+}
+
+.editor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.editor .input,
+.editor .output {
+    width: 40vw;
+    height: 80vh;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+.output * {
+    margin-top: 1rem;
+}
